@@ -78,4 +78,3 @@ def scene_3():
         else:
              print("""
              Not a valid choice, type a number """)
-

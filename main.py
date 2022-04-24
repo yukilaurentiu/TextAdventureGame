@@ -43,4 +43,3 @@ print("""
 input("\nPress Enter to begin your adventure, if you dare...")
 
 scene.scene_1()
-

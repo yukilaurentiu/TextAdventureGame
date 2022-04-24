@@ -23,18 +23,3 @@ def modify_skills():
     print("""
     Congrats! You have completed your character creation!
     Your final character sheet is:""")
-
-    # Name: """ + character_name +
-    #       """
-    #       Race: """ + character_race +
-    #       """
-    #       Class: """ + character_class +
-    #       """ \n
-    #       Strength :""" + str(character_strength) +
-    #       """
-    #       Dexterity: """ + str(character_dexterity) +
-    #       """
-    #       Magic: """ + str(character_magic) +
-    #       """
-    #       Life: """ + str(character_life))
-    # input("\nPress Enter to begin your adventure, if you dare...")
