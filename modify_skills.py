@@ -4,8 +4,9 @@ import storage
 
 def modify_skills():
     storage.clear()
-    print("To modify your skills, roll a six face die for each of your skills, "
-          "and the game will add your score to the relevant skill ")
+    print("""
+        To modify your skills, roll a six face die for each of your skills,
+        and the game will add your score to the relevant skill! """)
     input("\nPress Enter to roll for Strength")
     roll = randint(1, 6)
     print("You rolled: " + str(roll))
@@ -20,6 +21,4 @@ def modify_skills():
     print("You rolled: " + str(roll))
     input("\nPress Enter to continue... ")
     # clear()
-    print("""
-    Congrats! You have completed your character creation!
-    Your final character sheet is:""")
+

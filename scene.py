@@ -24,10 +24,10 @@ def scene_1():
 
         if user_input == "1":
             choice = "1"
-            Scene_2()
+            scene_2()
         elif user_input == "2":
             choice = "2"
-            Scene_3()
+            scene_3()
         else:
             print("""
             Not a valid choice, type a number """)

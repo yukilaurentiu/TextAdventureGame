@@ -27,3 +27,5 @@ def combat():
     else:
         print("You lost.. your friends will never be freed..and you dead.")
         input("Press Enter to exit the game")
+        exit()
+

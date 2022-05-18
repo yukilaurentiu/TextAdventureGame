@@ -20,8 +20,6 @@ intro()
 test.create_character()
 test.create_character_skill_sheet()
 
-
-
 test1.modify_skills()
 print("""
     Congrats! You have completed your character creation!
