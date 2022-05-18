@@ -52,8 +52,7 @@ def scene_2():
             choice = "2"
             skill_check.skill_check()
         else:
-            print("""
-        Not a valid choice, type a number """)
+            print("  Not a valid choice, type a number")
 
 
 def scene_3():
@@ -76,5 +75,4 @@ def scene_3():
              choice = "2"
              skill_check.skill_check()
         else:
-             print("""
-             Not a valid choice, type a number """)
+            print("  Not a valid choice, type a number")

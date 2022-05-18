@@ -20,7 +20,7 @@ def create_character():
         elif race_choice == "2":
             storage.character_race = "Dwarf"
         else:
-            print("Not a valid choice, try again")
+            print("  Not a valid choice, try again")
     storage.clear()
     while storage.character_class is None:
         class_choice = input("""
@@ -33,7 +33,7 @@ def create_character():
         elif class_choice == "2":
             storage.character_class = "Wizard"
         else:
-            print("Not a valid choice, try again")
+            print("  Not a valid choice, try again")
 
 
 def create_character_skill_sheet():
@@ -51,12 +51,11 @@ def create_character_skill_sheet():
         _ Life, which determines your life energy, points will be lost when hurt,
           and whenever life reaches 0, your character dies.
           Depending on your race and class, you will have a certain point-base already 
-    calculated by the game.
-    You will shortly be able to increase your skills by rolling a 6-face die.
+          calculated by the game.
+          You will shortly be able to increase your skills by rolling a 6-face die.
     """)
     input("\n  Press to continue... ")
-    print(""" 
-        Here is your base Character Skills Sheet: """)
+    print("""  Here is your base Character Skills Sheet: """)
 
     # storage.character_strength = 5
     # storage.character_magic = 0
@@ -78,17 +77,17 @@ def create_character_skill_sheet():
         storage.character_magic = storage.character_magic + 4
 
     print("""
-    Name: """ + storage.character_name +
-    """
-    Race: """ + storage.character_race +
-    """
-    Class: """ + storage.character_class +
-    """ 
-    Strength :""" + str(storage.character_strength) +
-    """
-    Dexterity: """ + str(storage.character_dexterity) +
-    """
-    Magic: """ + str(storage.character_magic) +
-    """
-    Life: """ + str(storage.character_life))
-    input("\nPlease Enter to apply your skills modifiers...")
+            Name: """ + storage.character_name +
+            """
+            Race: """ + storage.character_race +
+            """
+            Class: """ + storage.character_class +
+            """ 
+            Strength :""" + str(storage.character_strength) +
+            """
+            Dexterity: """ + str(storage.character_dexterity) +
+            """
+            Magic: """ + str(storage.character_magic) +
+            """
+            Life: """ + str(storage.character_life))
+    input("\n  Please Enter to apply your skills modifiers...")
