@@ -1,5 +1,5 @@
-# Text Adventure Game
-This is an interactive text game for beginners and I separated each function into each file.
+# Text Adventure Game:world_map:
+This is an interactive text game for beginners and I separated each function into each file to make more clean codes.
 
 - Import modules, interact with the system and display text.
 - Create a character sheet with functions, users input and variables.
